@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh; 
+    height: 100vh; 
     margin: auto;
     padding: auto;
     margin-bottom: 20%;
@@ -33,7 +33,7 @@ header {
     border: 50px;
 }
 
-.contentForm, .wordsToScramble, .words, #scrambledContent {
+.contentForm, .wordsToScramble, .words, #scrambledContent, .replace {
     margin: 10px 0;
     padding: 20px;
     background-color: #dad5d5;
