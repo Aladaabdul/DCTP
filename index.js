@@ -8,7 +8,7 @@ function scrambleContent(e) {
         alert("Please fill all fields");
         return;
     }
-    
+
     const scrambledContent = content.split(' ').map(word => {
         if (wordsToScramble.includes(word)) {
             return "####";
@@ -19,7 +19,6 @@ function scrambleContent(e) {
     document.getElementById("scrambledContent").textContent = scrambledContent;
 
     alert("Redact");
-
-}
+};
 
 document.querySelector(".contentForm").addEventListener("submit", scrambleContent)
