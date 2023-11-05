@@ -3,25 +3,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh; 
+    height: 70vh; 
     margin: auto;
     padding: auto;
     margin-bottom: 20%;
 }
 
+body {
+    background-color: mintcream;
+}
+
 header {
     text-align: center;
-    background-color: #565454;
+    background-color: rgb(191, 150, 228);
     padding: 20px;
+    border: 2px rgb(28, 22, 33);
+    border-radius: 20px;
 }
 
 .contentForm {
     text-align: center;
     align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 50px;
 }
 
-.contentForm, .wordsToScramble {
-    margin: 20px 0;
+.contentForm, .wordsToScramble, .words, #scrambledContent {
+    margin: 10px 0;
     padding: 20px;
     background-color: #dad5d5;
     border-radius: 10px;

@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="./STYLES/styles.css">
     <script src="./index.js" defer></script>
 </head>
-<boby>
+<body>
     <header>
         <h1>DCTP</h1>
     </header>
     <div class="center">
         <form class="contentForm">
             <section class="contentInput">
-            <textarea id="contentInput" rows="5" cols="50" placeholder="Enter your content (seperated by space)"></textarea>
+                <h4>contentInput</h4>
+            <textarea id="contentInput" rows="4" cols="40" placeholder="Enter your content (seperated by space)"></textarea>
             </section>
             <section class="wordsToScramble">
             <input type="text" id="wordsToScramble" placeholder="wordsToRedactr">
             </section>
-            <button type="button" onclick="scrambleContent()"><b>Redact Now</b></button>
+            <button type="submit" id="click"><b>Redact Now</b></button>
         </form>
         
         <div id="scrambledContent"></div>
